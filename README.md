@@ -1,19 +1,19 @@
 # abresq.com
 
-Personal landing page and project hub for **Abraham Esquivel** — Mechatronics Engineer turned MSc Finance student.
+This is my personal landing page and project hub. I'm Abraham Esquivel, a Mechatronics Engineer turned MSc Finance student.
 
-Abraham moved from Mexico to Ulm, Germany, to pursue an MSc in Finance after several years in engineering and consulting. This site is his central hub: a short professional introduction plus a growing list of links to the things he builds and ships, starting with [Wordy](https://wordy.abresq.com), a vocabulary learning app.
+I moved from Mexico to Ulm, Germany, to pursue an MSc in Finance after several years in engineering and consulting. This site is my central hub: a short professional introduction plus a growing list of links to the things I build and ship, starting with [Wordy](https://wordy.abresq.com), a vocabulary learning app.
 
 ## Stack
 
-- **React + Vite** (Vite 6.x — intentionally pinned below Vite 7/8 to avoid their experimental rolldown bundler, which has known ARM64 Docker install issues)
+- **React + Vite** (Vite 6.x, intentionally pinned below Vite 7/8 to avoid their experimental rolldown bundler, which has known ARM64 Docker install issues)
 - No UI framework, no external fonts, no analytics/tracking scripts
 - Plain CSS with custom properties for the design system (light theme, serif/sans type pairing)
 
 ## Features
 
 - Bilingual (English / Spanish) via a lightweight i18n context, defaulting to the browser's language
-- Flexible project list: add a new project by appending one object to `src/data/projects.js`, no layout changes needed
+- Flexible project list: I add a new project by appending one object to `src/data/projects.js`, no layout changes needed
 - Scroll-reveal and hover micro-interactions, respecting `prefers-reduced-motion`
 - Fully responsive, mobile-first layout
 
@@ -30,7 +30,7 @@ src/
 
 ### Adding a new project
 
-Edit `src/data/projects.js` and append an object:
+I edit `src/data/projects.js` and append an object:
 
 ```js
 {
@@ -54,7 +54,7 @@ npm run preview  # preview the production build
 
 ## Deployment
 
-Deployed via [Coolify](https://coolify.io) on a self-hosted Oracle Cloud ARM64 (Ampere) VPS as a static site. Publish directory is `dist`.
+I deploy this via [Coolify](https://coolify.io) on my self-hosted Oracle Cloud ARM64 (Ampere) VPS as a static site. Publish directory is `dist`.
 
 ## Contact
 
