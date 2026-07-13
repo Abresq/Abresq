@@ -21,6 +21,7 @@ export function LanguageProvider({ children }) {
   useEffect(() => {
     window.localStorage.setItem(STORAGE_KEY, lang)
     document.documentElement.lang = lang
+    document.title = dictionaries[lang].meta.title
   }, [lang])
 
   const value = useMemo(

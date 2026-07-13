@@ -1,6 +1,6 @@
 export default {
   meta: {
-    title: 'Abraham Esquivel',
+    title: 'Abraham Esquivel | Engineer & Finance',
   },
   nav: {
     about: 'About',
