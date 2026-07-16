@@ -21,7 +21,8 @@ export const projects = [
     },
     url: 'https://mrfs.abresq.com',
     tags: ['React', 'Backtesting'],
-    status: 'live',
+    // Reverted to "coming soon": backtest found to have look-ahead bias, results are being reworked.
+    status: 'in-progress',
   },
   {
     id: 'wordy',
