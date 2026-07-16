@@ -13,6 +13,17 @@ export const projects = [
     status: 'live',
   },
   {
+    id: 'mrfs',
+    name: 'MRFS',
+    description: {
+      en: 'An interactive dashboard for backtesting a Bollinger Bands, RSI, and divergence FX strategy, comparing in-sample and out-of-sample performance, Monte Carlo runs, and walk-forward tests across EUR/USD, GBP/USD, and AUD/USD.',
+      es: 'Un dashboard interactivo para backtesting de una estrategia de FX con Bandas de Bollinger, RSI y divergencia, que compara desempeño in-sample y out-of-sample, corridas de Monte Carlo y pruebas walk-forward en EUR/USD, GBP/USD y AUD/USD.',
+    },
+    url: 'https://mrfs.abresq.com',
+    tags: ['React', 'Backtesting'],
+    status: 'live',
+  },
+  {
     id: 'wordy',
     name: 'Wordy',
     description: {
